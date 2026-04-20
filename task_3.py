@@ -3,9 +3,10 @@ world_champions = {
     2006: 'Италия',
     2010: 'Испания',
     2014: 'Германия',
-    2018: 'Франция',
-    2022: 'Аргентина'
+    2018: 'Франция'
 }
+
+world_champions[2022] = 'Аргентина'
 
 for i in world_champions:
     print(i, ' - ', world_champions[i])
